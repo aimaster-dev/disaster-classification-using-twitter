@@ -7,13 +7,13 @@
 [![GitHub license](https://img.shields.io/github/license/teyang-lau/Dog_Breeds_Classification_CNN.svg)](https://github.com/teyang-lau/Melanoma_Detection/blob/master/LICENSE)
 
 Author: TeYang, Lau <br>
-Last Updated: 22 December 2020
+Last Updated: 8 January 2021
 
 <img src = "./Pictures/tweet_wc.png">
 
 <br><br>
 
-### **Please refer to this [notebook](https://www.kaggle.com/teyang/melanoma-detection-using-effnet-and-meta-data) on Kaggle for a more detailed description, analysis and insights of the project.** 
+### **Please refer to this [notebook](https://www.kaggle.com/teyang/transformer-is-all-you-need-for-disaster-tweets) on Kaggle for a more detailed description, analysis and insights of the project.** 
 
 
 
@@ -56,13 +56,13 @@ The dataset contains 10,000 tweets that were classified as disaster or non-disas
 
 #### Most Common Bigrams
 
-<img src='/Pictures/bigrams.png' width=1100>
+<img src='./Pictures/bigrams.png' width=1100>
 
 
 
 #### Most Common Trigrams
 
-<img src='/Pictures/trigrams.png' width=1100>
+<img src='./Pictures/trigrams.png' width=1100>
 
 <br><br>
 
@@ -86,30 +86,37 @@ The dataset contains 10,000 tweets that were classified as disaster or non-disas
 
 #### Most Common Words After Cleaning
 
-<img src='/Pictures/wordcloud.png' width=1100>
+<img src='./Pictures/wordcloud.png' width=1100>
 
 <br><br>
 
 ## LSTM
 
+<img src = './Pictures/LSTM_train_result.png'>
 
-
-
+<br>
 
 ## Bidirectional LSTM with Attention
 
+<img src = './Pictures/Bidirectional_LSTM_result.png'>
 
-
-
+<br>
 
 ## BERT
 
+<img src = './Pictures/bert_train_result.png'>
 
 
 
+BERT was trained for only 3-5 epochs and achieved a validation accuracy of 0.84. It achieved the same accuracy performance of 0.84 on Kaggle's testing set as well.
+
+<br>
 
 ## Error Analysis
 
+<img src = './Pictures/confusion_matrix.png'>
 
+The confusion matrix for BERT's validation shows that there are more **false negatives** than **false positives**.
 
 ## Conclusion
+
