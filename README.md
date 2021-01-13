@@ -120,3 +120,6 @@ The confusion matrix for BERT's validation shows that there are more **false neg
 
 ## Conclusion
 
+NLP techniques has came a long way, from using basic bag of words to RNN to transformers method. The current state-of-the-art models use some form of transformers in the network, which improves the performance of NLP tasks as they are no longer sequential in nature. From this project, the BERT model that uses the encoder part of the transformer appears to perform the best, although BERT performance differs a lot in different runs.
+
+Nevertheless, NLP models and techniques are getting more attention and hopefully, better models can be created, which will greatly improve and contribute immensely to different fields and industry.
